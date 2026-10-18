@@ -1,5 +1,5 @@
 <?php
-class judulfimcontroller
+class judulfilmcontroller
 {
     public function __construct(private judulfilm $model) {}
 
