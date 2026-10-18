@@ -61,7 +61,7 @@ class judulfilmcontroller
         ];
 
         if ($data['kode'] === '' || $data['judul'] === '' || $data['penulis'] === '') {
-            exit('kode, judul, dan program studi wajib diisi.');
+            exit('Kode, judul, dan penulis wajib diisi.');
         }
 
         return $data;
