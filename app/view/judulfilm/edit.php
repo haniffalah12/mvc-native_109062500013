@@ -12,15 +12,15 @@
 
         <label>NIM</label><br>
         <input type="text" name="nim"
-               value="<?= htmlspecialchars($judulfilm['nim']) ?>" required><br><br>
+               value="<?= htmlspecialchars($judulfilm['kode']) ?>" required><br><br>
 
         <label>Nama</label><br>
         <input type="text" name="nama"
-               value="<?= htmlspecialchars($judulfilm['nama']) ?>" required><br><br>
+               value="<?= htmlspecialchars($judulfilm['judul']) ?>" required><br><br>
 
         <label>Program Studi</label><br>
         <input type="text" name="prodi"
-               value="<?= htmlspecialchars($judulfilm['prodi']) ?>" required><br><br>
+               value="<?= htmlspecialchars($judulfilm['penulis']) ?>" required><br><br>
 
         <button type="submit">Update</button>
         <a href="index.php?page=judulfilm">Kembali</a>
