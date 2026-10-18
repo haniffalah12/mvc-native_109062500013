@@ -15,18 +15,18 @@
             <th>Penulis</th>
             <th>Aksi</th>
         </tr>
-        <?php foreach ($judulfilm as $m): ?>
+        <?php foreach ($judulfilm as $j): ?>
         <tr>
-            <td><?= htmlspecialchars($m['kode']) ?></td>
-            <td><?= htmlspecialchars($m['judul']) ?></td>
-            <td><?= htmlspecialchars($m['penulis']) ?></td>
+            <td><?= htmlspecialchars($j['kode']) ?></td>
+            <td><?= htmlspecialchars($j['judul']) ?></td>
+            <td><?= htmlspecialchars($j['penulis']) ?></td>
             <td>
-                <a href="index.php?page=judulfilm&action=edit&id=<?= $m['id'] ?>">Edit</a>
+                <a href="index.php?page=judulfilm&action=edit&id=<?= $j['id'] ?>">Edit</a>
                 <form method="post"
                       action="index.php?page=judulfilm&action=delete"
                       style="display:inline"
                       onsubmit="return confirm('Hapus data ini?')">
-                    <input type="hidden" name="id" value="<?= $m['id'] ?>">
+                    <input type="hidden" name="id" value="<?= $j['id'] ?>">
                     <button type="submit">Hapus</button>
                 </form>
             </td>
