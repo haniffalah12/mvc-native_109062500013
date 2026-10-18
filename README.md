@@ -1,4 +1,4 @@
-# MVC PHP Native - Data Mahasiswa
+# MVC PHP Native - Data film
 Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Native.
 ## Kebutuhan
 - PHP 8.0 atau lebih baru
@@ -7,7 +7,7 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 - Git
 ## Instalasi
 1. Clone atau salin project ke folder web server.
-2. Import `database/kampus.sql`.
+2. Import `database/film.sql`.
 3. Sesuaikan koneksi pada `config/database.php`.
 4. Buka `http://localhost/mvc-native/public/index.php`.
 ## Struktur MVC
@@ -18,9 +18,9 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 - `database/` : skema dan data awal SQL.
 - `public/` : entry point aplikasi.
 ## Fitur
-- Menampilkan data mahasiswa
-- Menambah data mahasiswa
-- Mengubah data mahasiswa
-- Menghapus data mahasiswa
+- Menampilkan data film
+- Menambah data film
+- Mengubah data film
+- Menghapus data film
 ## Histori Git
 Gunakan `git log --oneline --graph --decorate` untuk melihat tahapan pengembangan.
