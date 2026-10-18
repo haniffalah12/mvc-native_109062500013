@@ -6,12 +6,12 @@ class judulfilmcontroller
     public function index(): void
     {
         $judulfilm = $this->model->getAll();
-        require __DIR__ . '/../views/judulfilm/index.php';
+        require __DIR__ . '/../view/judulfilm/index.php';
     }
 
     public function create(): void
     {
-        require __DIR__ . '/../views/judulfilm/create.php';
+        require __DIR__ . '/../view/judulfilm/create.php';
     }
 
     public function store(): void
@@ -32,7 +32,7 @@ class judulfilmcontroller
             exit('Data judulfilm tidak ditemukan.');
         }
 
-        require __DIR__ . '/../views/judulfilm/edit.php';
+        require __DIR__ . '/../view/judulfilm/edit.php';
     }
 
     public function update(): void

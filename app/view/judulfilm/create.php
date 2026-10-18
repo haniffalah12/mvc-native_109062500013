@@ -9,13 +9,13 @@
 
     <form method="post" action="index.php?page=judulfilm&action=store">
         <label>Kode</label><br>
-        <input type="text" name="nim" required><br><br>
+        <input type="text" name="kode" required><br><br>
 
         <label>Judul Film</label><br>
-        <input type="text" name="nama" required><br><br>
+        <input type="text" name="judul" required><br><br>
 
         <label>Penulis</label><br>
-        <input type="text" name="prodi" required><br><br>
+        <input type="text" name="penulis" required><br><br>
 
         <button type="submit">Simpan</button>
         <a href="index.php?page=judulfilm">Kembali</a>
