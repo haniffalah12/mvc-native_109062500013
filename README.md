@@ -23,4 +23,3 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 - Mengubah data film
 - Menghapus data film
 ## Histori Git
-Gunakan `git log --oneline --graph --decorate` untuk melihat tahapan pengembangan.
