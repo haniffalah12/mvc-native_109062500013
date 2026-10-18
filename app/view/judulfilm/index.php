@@ -5,7 +5,7 @@
     <title>Daftar Judul Film</title>
 </head>
 <body>
-    <h2>Daftar Mahasiswa</h2>
+    <h2>Daftar Film</h2>
     <a href="index.php?page=judulfilm&action=create">Tambah Data</a>
 
     <table border="1" cellpadding="8" cellspacing="0">
