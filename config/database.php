@@ -2,7 +2,7 @@
     class Database
     {
         private string $host = 'localhost';
-        private string $db = 'lm';
+        private string $db = 'film';
         private string $user = 'root';
         private string $pass = '';
         public function connect(): PDO
